@@ -1,0 +1,7 @@
+v1.3.0
+
+Release: 2025-11-20
+Summary: ephemeris + canonical modal translation working; canonical 24-mode integration
+Files changed: ephemeris modules, harmonic_engine data_loader/chart_mapper/engine/models, canonical CSVs
+Tests: 4 passed (local)
+Notes: See `CHANGELOG.md` for details and Notion pages for full docs.
