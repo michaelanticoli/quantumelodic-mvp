@@ -1,0 +1,13 @@
+sign,element,quadratonic_mode,quadratonic_mode_id,pentatonic_mode,pentatonic_mode_id,future_hexatonic_mode,notes,canon_version
+Aries,Fire,Thaptic,QUAD-FIRE-THAP-1,Pyra-Crus,PENT-ARIES-1,,Behavioral: Thaptic; Emotional: Pyra-Crus; Hexatonic layer TBD.,1.0
+Taurus,Earth,Dalic,QUAD-EARTH-DAL-1,Terra-Gra,PENT-TAURUS-1,,Behavioral: Dalic; Emotional: Terra-Gra; Hexatonic layer TBD.,1.0
+Gemini,Air,Aerathic,QUAD-AIR-AER-1,Aero-Lume,PENT-GEM-1,,Behavioral: Aerathic; Emotional: Aero-Lume; Hexatonic layer TBD.,1.0
+Cancer,Water,Lothic,QUAD-WATER-LOTH-1,Hydra-Mare,PENT-CAN-1,,Behavioral: Lothic; Emotional: Hydra-Mare; Hexatonic layer TBD.,1.0
+Leo,Fire,Thaptic,QUAD-FIRE-THAP-1,Pyra-Solis,PENT-LEO-1,,Behavioral: Thaptic; Emotional: Pyra-Solis; Hexatonic layer TBD.,1.0
+Virgo,Earth,Dalic,QUAD-EARTH-DAL-1,Terra-Cura,PENT-VIRGO-1,,Behavioral: Dalic; Emotional: Terra-Cura; Hexatonic layer TBD.,1.0
+Libra,Air,Aerathic,QUAD-AIR-AER-1,Aero-Harmon,PENT-LIB-1,,Behavioral: Aerathic; Emotional: Aero-Harmon; Hexatonic layer TBD.,1.0
+Scorpio,Water,Saric,QUAD-WATER-SAR-1,Hydra-Umbra,PENT-SCOR-1,,Behavioral: Saric; Emotional: Hydra-Umbra; Hexatonic layer TBD.,1.0
+Sagittarius,Fire,Stathic,QUAD-FIRE-STATH-1,Pyra-Astra,PENT-SAG-1,,Behavioral: Stathic; Emotional: Pyra-Astra; Hexatonic layer TBD.,1.0
+Capricorn,Earth,Dygic,QUAD-EARTH-DYG-1,Terra-Monte,PENT-CAP-1,,Behavioral: Dygic; Emotional: Terra-Monte; Hexatonic layer TBD.,1.0
+Aquarius,Air,Aeolic,QUAD-AIR-AEOL-1,Aero-Flux,PENT-AQU-1,,Behavioral: Aeolic; Emotional: Aero-Flux; Hexatonic layer TBD.,1.0
+Pisces,Water,Lothic,QUAD-WATER-LOTH-1,Hydra-Vela,PENT-PIS-1,,Behavioral: Lothic; Emotional: Hydra-Vela; Hexatonic layer TBD.,1.0

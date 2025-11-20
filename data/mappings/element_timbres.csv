@@ -1,0 +1,6 @@
+REPLACE_WITH_CANONICAL,REPLACE_ME
+
+# REPLACE THIS FILE WITH THE CANONICAL `element_timbres.csv` CONTENTS
+# Expected format: element,timbre1,timbre2,...
+# Example row (for reference only - replace with official content):
+# Fire,guitar,brass,distortion
