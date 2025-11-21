@@ -1,0 +1,10 @@
+[MASTER]
+# Add the project's src to init-hook so pylint can resolve imports when run outside VS Code
+init-hook='import sys; import os; sys.path.insert(0, os.path.join(os.getcwd(), "src"))'
+
+[MESSAGES CONTROL]
+# Disable import-error (E0401) — common with local/src package layouts
+disable=import-error
+
+[FORMAT]
+# Keep default formatting rules
