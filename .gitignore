@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Byte-compiled / cache
+__pycache__/
+
+# Examples output (generated MIDI files)
+examples/output/
+examples/demos/
+
+# Temporary files
+tmp/
