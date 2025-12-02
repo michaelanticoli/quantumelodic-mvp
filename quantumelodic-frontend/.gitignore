@@ -27,7 +27,7 @@ tmp/
 *.log
 temp_*.py
 
-# Environment variables / secrets
+# Environment variables (keeps secrets safe)
 .env
 .streamlit/secrets.toml
 
