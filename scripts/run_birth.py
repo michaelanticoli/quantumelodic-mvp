@@ -14,6 +14,7 @@ def main():
     p.add_argument("--tz", required=True, help="Timezone (IANA name, e.g. 'Pacific/Honolulu')")
     p.add_argument("--orb", type=float, default=8.0, help="Aspect orb in degrees")
     p.add_argument("--json", action="store_true", help="Print machine-readable JSON output")
+    p.add_argument("--pretty", action="store_true", help="Print verbose human report plus detailed JSON")
     args = p.parse_args()
 
     chart = build_chart_from_birth_data(
@@ -28,6 +29,15 @@ def main():
 
     report = generate_report(chart, result, orb=args.orb)
     if args.json:
+        print(json.dumps(report["json"], indent=2))
+    elif args.pretty:
+        print("="*70)
+        print("HARMONIC REPORT (Human-friendly)")
+        print("="*70)
+        print(report["text"])
+        print("\n" + "="*70)
+        print("Detailed JSON")
+        print("="*70)
         print(json.dumps(report["json"], indent=2))
     else:
         print(report["text"])
