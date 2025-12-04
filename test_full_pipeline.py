@@ -1,4 +1,11 @@
-from ephemeris_engine.chart_builder import build_chart_from_birth_data
+from [build-syst[metadata]
+name = quantumelodic-mvp
+version = 0.0.0
+
+[options]
+package_dir =
+    = src
+packages = find: import build_chart_from_birth_data
 from harmonic_engine.engine import run_harmonic_engine
 
 # Build chart from birth data
