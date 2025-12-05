@@ -2,9 +2,9 @@
   "planets": [
     {
       "name": "Sun",
-      "position": 159,
-      "sign": "Virgo",
-      "house": 6,
+      "position": 289,
+      "sign": "Capricorn",
+      "house": 10,
       "retrograde": false,
       "mode": "Ionian",
       "base_note": "E",
@@ -12,18 +12,18 @@
         "Trumpet",
         "French Horn"
       ],
-      "tempo": 143.57791618238926,
-      "rhythm": "Precise, detailed",
-      "dynamics": "p",
-      "articulation": "Non-legato",
-      "section": "Interlude",
-      "emotion": "Analytical"
+      "tempo": 119.64826348532438,
+      "rhythm": "Structured, disciplined",
+      "dynamics": "mf",
+      "articulation": "Pesante",
+      "section": "Climax",
+      "emotion": "Authority"
     },
     {
       "name": "Moon",
-      "position": 189,
-      "sign": "Libra",
-      "house": 7,
+      "position": 319,
+      "sign": "Aquarius",
+      "house": 11,
       "retrograde": true,
       "mode": "Aeolian",
       "base_note": "F",
@@ -31,18 +31,18 @@
         "Piano",
         "Cello"
       ],
-      "tempo": 160.0,
-      "rhythm": "Balanced, harmonious",
-      "dynamics": "p",
-      "articulation": "Dolce",
-      "section": "Counterpoint",
-      "emotion": "Balance"
+      "tempo": 184.0,
+      "rhythm": "Unpredictable, syncopated",
+      "dynamics": "mf",
+      "articulation": "Staccatissimo",
+      "section": "Variation",
+      "emotion": "Innovation"
     },
     {
       "name": "Mercury",
-      "position": 219,
-      "sign": "Scorpio",
-      "house": 8,
+      "position": 349,
+      "sign": "Pisces",
+      "house": 12,
       "retrograde": false,
       "mode": "Mixolydian",
       "base_note": "D",
@@ -51,83 +51,7 @@
         "Clarinet",
         "Synth"
       ],
-      "tempo": 171.4918597297348,
-      "rhythm": "Intense, sustained",
-      "dynamics": "ff",
-      "articulation": "Marcato",
-      "section": "Transformation",
-      "emotion": "Intensity"
-    },
-    {
-      "name": "Venus",
-      "position": 249,
-      "sign": "Sagittarius",
-      "house": 9,
-      "retrograde": false,
-      "mode": "Lydian",
-      "base_note": "G",
-      "instruments": [
-        "Violin",
-        "Harp"
-      ],
-      "tempo": 220.29553305843638,
-      "rhythm": "Galloping, adventurous",
-      "dynamics": "mf",
-      "articulation": "Staccato",
-      "section": "Expansion",
-      "emotion": "Inspiration"
-    },
-    {
-      "name": "Mars",
-      "position": 279,
-      "sign": "Capricorn",
-      "house": 10,
-      "retrograde": false,
-      "mode": "Phrygian",
-      "base_note": "C",
-      "instruments": [
-        "Percussion",
-        "Electric Guitar"
-      ],
-      "tempo": 74.1880782175507,
-      "rhythm": "Structured, disciplined",
-      "dynamics": "mf",
-      "articulation": "Pesante",
-      "section": "Climax",
-      "emotion": "Authority"
-    },
-    {
-      "name": "Jupiter",
-      "position": 309,
-      "sign": "Aquarius",
-      "house": 11,
-      "retrograde": false,
-      "mode": "Lydian",
-      "base_note": "A",
-      "instruments": [
-        "Trumpet",
-        "Trombone"
-      ],
-      "tempo": 57.49999999999999,
-      "rhythm": "Unpredictable, syncopated",
-      "dynamics": "mf",
-      "articulation": "Staccatissimo",
-      "section": "Variation",
-      "emotion": "Innovation"
-    },
-    {
-      "name": "Saturn",
-      "position": 339,
-      "sign": "Pisces",
-      "house": 12,
-      "retrograde": true,
-      "mode": "Dorian",
-      "base_note": "B",
-      "instruments": [
-        "Bassoon",
-        "Organ"
-      ],
-      "tempo": 32.0,
+      "tempo": 152.43720864865315,
       "rhythm": "Dreamy, fluid",
       "dynamics": "pp",
       "articulation": "Legatissimo",
@@ -135,18 +59,18 @@
       "emotion": "Spiritual"
     },
     {
-      "name": "Uranus",
-      "position": 9,
+      "name": "Venus",
+      "position": 19,
       "sign": "Aries",
       "house": 1,
       "retrograde": false,
-      "mode": "Aeolian",
-      "base_note": "Ab",
+      "mode": "Lydian",
+      "base_note": "G",
       "instruments": [
-        "Synthesizer",
-        "Electric Piano"
+        "Violin",
+        "Harp"
       ],
-      "tempo": 65.0,
+      "tempo": 229.10735438077384,
       "rhythm": "Sharp, staccato",
       "dynamics": "ff",
       "articulation": "Marcato",
@@ -154,18 +78,18 @@
       "emotion": "Self-expression"
     },
     {
-      "name": "Neptune",
-      "position": 39,
+      "name": "Mars",
+      "position": 49,
       "sign": "Taurus",
       "house": 2,
       "retrograde": false,
-      "mode": "Ionian",
-      "base_note": "Bb",
+      "mode": "Phrygian",
+      "base_note": "C",
       "instruments": [
-        "Harp",
-        "Synthesizer"
+        "Percussion",
+        "Electric Guitar"
       ],
-      "tempo": 40.0,
+      "tempo": 79.13395009872075,
       "rhythm": "Steady, sustained",
       "dynamics": "mp",
       "articulation": "Legato",
@@ -173,16 +97,16 @@
       "emotion": "Stability"
     },
     {
-      "name": "Pluto",
-      "position": 69,
+      "name": "Jupiter",
+      "position": 79,
       "sign": "Gemini",
       "house": 3,
       "retrograde": false,
-      "mode": "Phrygian",
-      "base_note": "Db",
+      "mode": "Lydian",
+      "base_note": "A",
       "instruments": [
-        "Low Brass",
-        "Percussion"
+        "Trumpet",
+        "Trombone"
       ],
       "tempo": 55.00000000000001,
       "rhythm": "Quick, varied",
@@ -190,6 +114,82 @@
       "articulation": "Leggiero",
       "section": "Bridge",
       "emotion": "Curiosity"
+    },
+    {
+      "name": "Saturn",
+      "position": 109,
+      "sign": "Cancer",
+      "house": 4,
+      "retrograde": true,
+      "mode": "Dorian",
+      "base_note": "B",
+      "instruments": [
+        "Bassoon",
+        "Organ"
+      ],
+      "tempo": 34.0,
+      "rhythm": "Flowing, emotional",
+      "dynamics": "p",
+      "articulation": "Legato",
+      "section": "Emotional Core",
+      "emotion": "Security"
+    },
+    {
+      "name": "Uranus",
+      "position": 139,
+      "sign": "Leo",
+      "house": 5,
+      "retrograde": false,
+      "mode": "Aeolian",
+      "base_note": "Ab",
+      "instruments": [
+        "Synthesizer",
+        "Electric Piano"
+      ],
+      "tempo": 60.0,
+      "rhythm": "Bold, dramatic",
+      "dynamics": "f",
+      "articulation": "Tenuto",
+      "section": "Exposition",
+      "emotion": "Joy"
+    },
+    {
+      "name": "Neptune",
+      "position": 169,
+      "sign": "Virgo",
+      "house": 6,
+      "retrograde": false,
+      "mode": "Ionian",
+      "base_note": "Bb",
+      "instruments": [
+        "Harp",
+        "Synthesizer"
+      ],
+      "tempo": 45.0,
+      "rhythm": "Precise, detailed",
+      "dynamics": "p",
+      "articulation": "Non-legato",
+      "section": "Interlude",
+      "emotion": "Analytical"
+    },
+    {
+      "name": "Pluto",
+      "position": 199,
+      "sign": "Libra",
+      "house": 7,
+      "retrograde": false,
+      "mode": "Phrygian",
+      "base_note": "Db",
+      "instruments": [
+        "Low Brass",
+        "Percussion"
+      ],
+      "tempo": 50.0,
+      "rhythm": "Balanced, harmonious",
+      "dynamics": "p",
+      "articulation": "Dolce",
+      "section": "Counterpoint",
+      "emotion": "Balance"
     }
   ],
   "aspects": [
@@ -200,7 +200,7 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7,
+      "intensity": 0.7999999999999999,
       "applying": false,
       "description": "Harmonious opportunity"
     },
@@ -211,8 +211,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7,
-      "applying": false,
+      "intensity": 0.7999999999999999,
+      "applying": true,
       "description": "Tense, challenging"
     },
     {
@@ -222,8 +222,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7,
-      "applying": true,
+      "intensity": 0.7999999999999999,
+      "applying": false,
       "description": "Harmonic flow"
     },
     {
@@ -233,8 +233,8 @@
       "interval": 12,
       "harmony": "Octave",
       "consonance": 0.5,
-      "intensity": 0.7,
-      "applying": false,
+      "intensity": 0.7999999999999999,
+      "applying": true,
       "description": "Tense balance"
     },
     {
@@ -244,7 +244,7 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7,
+      "intensity": 0.7999999999999999,
       "applying": false,
       "description": "Harmonic flow"
     },
@@ -255,7 +255,7 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7,
+      "intensity": 0.7999999999999999,
       "applying": false,
       "description": "Tense, challenging"
     },
@@ -266,8 +266,8 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7999999999999999,
-      "applying": true,
+      "intensity": 0.8999999999999999,
+      "applying": false,
       "description": "Harmonious opportunity"
     },
     {
@@ -277,8 +277,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7999999999999999,
-      "applying": true,
+      "intensity": 0.8999999999999999,
+      "applying": false,
       "description": "Tense, challenging"
     },
     {
@@ -288,8 +288,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7999999999999999,
-      "applying": true,
+      "intensity": 0.8999999999999999,
+      "applying": false,
       "description": "Harmonic flow"
     },
     {
@@ -299,7 +299,7 @@
       "interval": 12,
       "harmony": "Octave",
       "consonance": 0.5,
-      "intensity": 0.7999999999999999,
+      "intensity": 0.8999999999999999,
       "applying": true,
       "description": "Tense balance"
     },
@@ -310,7 +310,7 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7999999999999999,
+      "intensity": 0.8999999999999999,
       "applying": false,
       "description": "Harmonic flow"
     },
@@ -321,8 +321,8 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.8999999999999999,
-      "applying": true,
+      "intensity": 0.7,
+      "applying": false,
       "description": "Harmonious opportunity"
     },
     {
@@ -332,8 +332,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.8999999999999999,
-      "applying": true,
+      "intensity": 0.7,
+      "applying": false,
       "description": "Tense, challenging"
     },
     {
@@ -343,8 +343,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.8999999999999999,
-      "applying": true,
+      "intensity": 0.7,
+      "applying": false,
       "description": "Harmonic flow"
     },
     {
@@ -354,7 +354,7 @@
       "interval": 12,
       "harmony": "Octave",
       "consonance": 0.5,
-      "intensity": 0.8999999999999999,
+      "intensity": 0.7,
       "applying": true,
       "description": "Tense balance"
     },
@@ -365,7 +365,7 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7,
+      "intensity": 0.7999999999999999,
       "applying": true,
       "description": "Harmonious opportunity"
     },
@@ -376,7 +376,7 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7,
+      "intensity": 0.7999999999999999,
       "applying": true,
       "description": "Tense, challenging"
     },
@@ -387,8 +387,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7,
-      "applying": false,
+      "intensity": 0.7999999999999999,
+      "applying": true,
       "description": "Harmonic flow"
     },
     {
@@ -398,8 +398,8 @@
       "interval": 12,
       "harmony": "Octave",
       "consonance": 0.5,
-      "intensity": 0.7,
-      "applying": true,
+      "intensity": 0.7999999999999999,
+      "applying": false,
       "description": "Tense balance"
     },
     {
@@ -409,7 +409,7 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7999999999999999,
+      "intensity": 0.8999999999999999,
       "applying": true,
       "description": "Harmonious opportunity"
     },
@@ -420,8 +420,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7999999999999999,
-      "applying": false,
+      "intensity": 0.8999999999999999,
+      "applying": true,
       "description": "Tense, challenging"
     },
     {
@@ -431,8 +431,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.7999999999999999,
-      "applying": false,
+      "intensity": 0.8999999999999999,
+      "applying": true,
       "description": "Harmonic flow"
     },
     {
@@ -442,8 +442,8 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.8999999999999999,
-      "applying": false,
+      "intensity": 0.7,
+      "applying": true,
       "description": "Harmonious opportunity"
     },
     {
@@ -453,8 +453,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.8999999999999999,
-      "applying": false,
+      "intensity": 0.7,
+      "applying": true,
       "description": "Tense, challenging"
     },
     {
@@ -464,8 +464,8 @@
       "interval": 7,
       "harmony": "Perfect Fifth",
       "consonance": 0.9,
-      "intensity": 0.8999999999999999,
-      "applying": false,
+      "intensity": 0.7,
+      "applying": true,
       "description": "Harmonic flow"
     },
     {
@@ -475,8 +475,8 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7,
-      "applying": false,
+      "intensity": 0.7999999999999999,
+      "applying": true,
       "description": "Harmonious opportunity"
     },
     {
@@ -486,8 +486,8 @@
       "interval": 6,
       "harmony": "Tritone",
       "consonance": 0.2,
-      "intensity": 0.7,
-      "applying": false,
+      "intensity": 0.7999999999999999,
+      "applying": true,
       "description": "Tense, challenging"
     },
     {
@@ -497,68 +497,68 @@
       "interval": 4,
       "harmony": "Major Third",
       "consonance": 0.8,
-      "intensity": 0.7999999999999999,
+      "intensity": 0.8999999999999999,
       "applying": true,
       "description": "Harmonious opportunity"
     }
   ],
   "composition": {
     "key": "E",
-    "tempo": 100.0,
+    "tempo": 114.99999999999999,
     "form": [
-      {
-        "section": "Interlude",
-        "house": 6,
-        "planets": [
-          "Sun"
-        ],
-        "focus": "Service",
-        "emotion": "Analytical",
-        "dynamics": "mp",
-        "duration": 30
-      },
-      {
-        "section": "Counterpoint",
-        "house": 7,
-        "planets": [
-          "Moon"
-        ],
-        "focus": "Relationship",
-        "emotion": "Balance",
-        "dynamics": "mf",
-        "duration": 30
-      },
-      {
-        "section": "Transformation",
-        "house": 8,
-        "planets": [
-          "Mercury"
-        ],
-        "focus": "Depth",
-        "emotion": "Intensity",
-        "dynamics": "ff",
-        "duration": 30
-      },
-      {
-        "section": "Expansion",
-        "house": 9,
-        "planets": [
-          "Venus"
-        ],
-        "focus": "Wisdom",
-        "emotion": "Inspiration",
-        "dynamics": "f",
-        "duration": 30
-      },
       {
         "section": "Climax",
         "house": 10,
         "planets": [
-          "Mars"
+          "Sun"
         ],
         "focus": "Achievement",
         "emotion": "Authority",
         "dynamics": "ff",
+        "duration": 30
+      },
+      {
+        "section": "Variation",
+        "house": 11,
+        "planets": [
+          "Moon"
+        ],
+        "focus": "Community",
+        "emotion": "Innovation",
+        "dynamics": "mf",
+        "duration": 30
+      },
+      {
+        "section": "Resolution",
+        "house": 12,
+        "planets": [
+          "Mercury"
+        ],
+        "focus": "Transcendence",
+        "emotion": "Spiritual",
+        "dynamics": "pp",
+        "duration": 30
+      },
+      {
+        "section": "Introduction",
+        "house": 1,
+        "planets": [
+          "Venus"
+        ],
+        "focus": "Theme",
+        "emotion": "Self-expression",
+        "dynamics": "f",
+        "duration": 30
+      },
+      {
+        "section": "Development",
+        "house": 2,
+        "planets": [
+          "Mars"
+        ],
+        "focus": "Resources",
+        "emotion": "Stability",
+        "dynamics": "mp",
         "duration": 30
       }
     ],
@@ -570,352 +570,352 @@
       "note_index": 0,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Sun",
       "note_index": 4,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Sun",
       "note_index": 7,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Sun",
       "note_index": 11,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Sun",
       "note_index": 2,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Sun",
       "note_index": 5,
       "base_note": "E",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Non-legato"
+      "velocity": 0.7,
+      "articulation": "Pesante"
     },
     {
       "planet": "Moon",
       "note_index": 10,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 7,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 3,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 0,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 8,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 5,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Moon",
       "note_index": 2,
       "base_note": "F",
       "duration": 0.5,
-      "velocity": 0.5,
-      "articulation": "Dolce"
+      "velocity": 0.7,
+      "articulation": "Staccatissimo"
     },
     {
       "planet": "Mercury",
       "note_index": 0,
       "base_note": "D",
-      "duration": 0.5,
-      "velocity": 0.9,
-      "articulation": "Marcato"
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legatissimo"
     },
     {
       "planet": "Mercury",
       "note_index": 4,
       "base_note": "D",
-      "duration": 0.5,
-      "velocity": 0.9,
-      "articulation": "Marcato"
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legatissimo"
     },
     {
       "planet": "Mercury",
       "note_index": 7,
       "base_note": "D",
-      "duration": 0.5,
-      "velocity": 0.9,
-      "articulation": "Marcato"
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legatissimo"
     },
     {
       "planet": "Mercury",
       "note_index": 10,
       "base_note": "D",
-      "duration": 0.5,
-      "velocity": 0.9,
-      "articulation": "Marcato"
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legatissimo"
     },
     {
       "planet": "Venus",
       "note_index": 0,
       "base_note": "G",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccato"
+      "duration": 0.25,
+      "velocity": 0.9,
+      "articulation": "Marcato"
     },
     {
       "planet": "Venus",
       "note_index": 4,
       "base_note": "G",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccato"
+      "duration": 0.25,
+      "velocity": 0.9,
+      "articulation": "Marcato"
     },
     {
       "planet": "Venus",
       "note_index": 7,
       "base_note": "G",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccato"
+      "duration": 0.25,
+      "velocity": 0.9,
+      "articulation": "Marcato"
     },
     {
       "planet": "Venus",
       "note_index": 11,
       "base_note": "G",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccato"
+      "duration": 0.25,
+      "velocity": 0.9,
+      "articulation": "Marcato"
     },
     {
       "planet": "Venus",
       "note_index": 2,
       "base_note": "G",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccato"
+      "duration": 0.25,
+      "velocity": 0.9,
+      "articulation": "Marcato"
     },
     {
       "planet": "Mars",
       "note_index": 0,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Mars",
       "note_index": 3,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Mars",
       "note_index": 7,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Mars",
       "note_index": 10,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Mars",
       "note_index": 1,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Mars",
       "note_index": 5,
       "base_note": "C",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Pesante"
+      "velocity": 0.5,
+      "articulation": "Legato"
     },
     {
       "planet": "Jupiter",
       "note_index": 0,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 4,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 7,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 11,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 2,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 6,
       "base_note": "A",
-      "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
     },
     {
       "planet": "Jupiter",
       "note_index": 9,
       "base_note": "A",
+      "duration": 0.25,
+      "velocity": 0.5,
+      "articulation": "Leggiero"
+    },
+    {
+      "planet": "Saturn",
+      "note_index": 10,
+      "base_note": "B",
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legato"
+    },
+    {
+      "planet": "Saturn",
+      "note_index": 7,
+      "base_note": "B",
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legato"
+    },
+    {
+      "planet": "Saturn",
+      "note_index": 3,
+      "base_note": "B",
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legato"
+    },
+    {
+      "planet": "Saturn",
+      "note_index": 0,
+      "base_note": "B",
+      "duration": 1.0,
+      "velocity": 0.5,
+      "articulation": "Legato"
+    },
+    {
+      "planet": "Uranus",
+      "note_index": 0,
+      "base_note": "Ab",
       "duration": 0.5,
-      "velocity": 0.7,
-      "articulation": "Staccatissimo"
-    },
-    {
-      "planet": "Saturn",
-      "note_index": 10,
-      "base_note": "B",
-      "duration": 1.0,
-      "velocity": 0.5,
-      "articulation": "Legatissimo"
-    },
-    {
-      "planet": "Saturn",
-      "note_index": 7,
-      "base_note": "B",
-      "duration": 1.0,
-      "velocity": 0.5,
-      "articulation": "Legatissimo"
-    },
-    {
-      "planet": "Saturn",
-      "note_index": 3,
-      "base_note": "B",
-      "duration": 1.0,
-      "velocity": 0.5,
-      "articulation": "Legatissimo"
-    },
-    {
-      "planet": "Saturn",
-      "note_index": 0,
-      "base_note": "B",
-      "duration": 1.0,
-      "velocity": 0.5,
-      "articulation": "Legatissimo"
-    },
-    {
-      "planet": "Uranus",
-      "note_index": 0,
-      "base_note": "Ab",
-      "duration": 0.25,
       "velocity": 0.9,
-      "articulation": "Marcato"
+      "articulation": "Tenuto"
     },
     {
       "planet": "Uranus",
       "note_index": 3,
       "base_note": "Ab",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.9,
-      "articulation": "Marcato"
+      "articulation": "Tenuto"
     },
     {
       "planet": "Uranus",
       "note_index": 7,
       "base_note": "Ab",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.9,
-      "articulation": "Marcato"
+      "articulation": "Tenuto"
     },
     {
       "planet": "Uranus",
       "note_index": 10,
       "base_note": "Ab",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.9,
-      "articulation": "Marcato"
+      "articulation": "Tenuto"
     },
     {
       "planet": "Uranus",
       "note_index": 2,
       "base_note": "Ab",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.9,
-      "articulation": "Marcato"
+      "articulation": "Tenuto"
     },
     {
       "planet": "Neptune",
@@ -923,7 +923,7 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Neptune",
@@ -931,7 +931,7 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Neptune",
@@ -939,7 +939,7 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Neptune",
@@ -947,7 +947,7 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Neptune",
@@ -955,7 +955,7 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Neptune",
@@ -963,63 +963,63 @@
       "base_note": "Bb",
       "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Legato"
+      "articulation": "Non-legato"
     },
     {
       "planet": "Pluto",
       "note_index": 0,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 3,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 7,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 10,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 1,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 5,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Pluto",
       "note_index": 8,
       "base_note": "Db",
-      "duration": 0.25,
+      "duration": 0.5,
       "velocity": 0.5,
-      "articulation": "Leggiero"
+      "articulation": "Dolce"
     },
     {
       "planet": "Sun-Mercury",
