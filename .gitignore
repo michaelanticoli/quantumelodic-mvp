@@ -48,3 +48,7 @@ test_*.py
 *_test.py
 ephe/
 mappings/
+
+# Node.js
+node_modules/
+package-lock.json

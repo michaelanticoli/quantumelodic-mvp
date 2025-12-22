@@ -1,0 +1,18 @@
+{
+  "name": "quantumelodic-mvp",
+  "version": "1.0.0",
+  "description": "Quantumelodic MVP - Astronomical music generation",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "git-truck": "git-truck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-truck": "^2.0.12"
+  }
+}
