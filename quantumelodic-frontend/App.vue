@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
+// Demo counter to demonstrate Vue reactivity is working
 const count = ref(0)
 </script>
 
