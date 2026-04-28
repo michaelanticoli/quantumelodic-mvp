@@ -267,7 +267,7 @@ function closePremiumModal() {
           <div class="upsell-text">
             <h2>🎶 Turn Your Chart into Music</h2>
             <p>
-              Unlock a fully personalised AI-generated composition scored directly
+              Unlock a fully personalized AI-generated composition scored directly
               from your natal chart — unique tempo, mode, instrumentation, and a
               Suno-ready prompt tuned to your {{ reportData.harmonic?.dominant_element }} energy.
             </p>
@@ -297,7 +297,7 @@ function closePremiumModal() {
         <h2>🎉 Premium Song Generation</h2>
         <p class="upgrade-sub">
           In production this page completes your Stripe checkout and delivers
-          your personalised music prompt and composition blueprint.
+          your personalized music prompt and composition blueprint.
         </p>
         <div class="upgrade-preview">
           <h3>Your AI Music Prompt (preview)</h3>

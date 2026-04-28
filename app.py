@@ -78,8 +78,8 @@ def report():
         )
         engine_result = run_harmonic_engine(chart)
         rep = generate_report(chart, engine_result)
-    except Exception as exc:  # pragma: no cover
-        return jsonify({"error": str(exc)}), 422
+    except Exception:  # pragma: no cover
+        return jsonify({"error": "Failed to generate report. Please check your input values."}), 422
 
     return jsonify(
         {
@@ -149,8 +149,8 @@ def song_prompt():
         builder = MusicPromptBuilder(engine_result)
         suno_prompt = builder.build_suno_prompt()
         stable_payload = builder.build_stable_audio_prompt()
-    except Exception as exc:  # pragma: no cover
-        return jsonify({"error": str(exc)}), 422
+    except Exception:  # pragma: no cover
+        return jsonify({"error": "Failed to generate song prompt. Please check your input values."}), 422
 
     return jsonify(
         {
@@ -167,4 +167,5 @@ def song_prompt():
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    debug = os.environ.get("FLASK_DEBUG", "0").strip() == "1"
+    app.run(host="0.0.0.0", port=port, debug=debug)
