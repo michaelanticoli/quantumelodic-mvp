@@ -5,3 +5,6 @@ pydub
 midiutil
 skyfield
 pytz
+flask
+flask-cors
+pyswisseph

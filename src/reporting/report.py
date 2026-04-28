@@ -76,11 +76,21 @@ def _try_get_planet_positions(chart):
         if hasattr(chart, attr):
             p = getattr(chart, attr)
             if isinstance(p, dict):
-                for name, lon in p.items():
-                    try:
-                        possibilities.append({"name": name, "lon": float(lon)})
-                    except Exception:
-                        pass
+                for name, val in p.items():
+                    if isinstance(val, (int, float)):
+                        try:
+                            possibilities.append({"name": name, "lon": float(val)})
+                        except Exception:
+                            pass
+                    else:
+                        lon = (
+                            getattr(val, "lon", None)
+                            or getattr(val, "longitude", None)
+                            or (val.get("lon") if isinstance(val, dict) else None)
+                            or (val.get("longitude") if isinstance(val, dict) else None)
+                        )
+                        if lon is not None:
+                            possibilities.append({"name": name, "lon": float(lon)})
             elif isinstance(p, list):
                 for item in p:
                     if isinstance(item, tuple) and len(item) >= 2:
@@ -329,7 +339,14 @@ def generate_report(chart, engine_result=None, orb=8.0):
     return {
         "json": {
             "chart_type": chart_type,
-            "planets": planets_with_houses,
+            "planets": [
+                {
+                    **p,
+                    "sign": long_to_sign_degree(p["lon"])[0],
+                    "degree": long_to_sign_degree(p["lon"])[1],
+                }
+                for p in planets_with_houses
+            ],
             "aspects": aspects,
             "insights": insights,
         },
