@@ -87,9 +87,7 @@ def _try_get_planet_positions(chart):
                         if lon is None:
                             lon = getattr(val, "longitude", None)
                         if lon is None and isinstance(val, dict):
-                            lon = val.get("lon")
-                        if lon is None and isinstance(val, dict):
-                            lon = val.get("longitude")
+                            lon = val.get("lon") if val.get("lon") is not None else val.get("longitude")
                         if lon is not None:
                             possibilities.append({"name": name, "lon": float(lon)})
             elif isinstance(p, list):
